@@ -11,16 +11,15 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
+	"k8s.io/client-go/tools/record"
 	"reflect"
 	"sigs.k8s.io/controller-runtime/pkg/client"
-	"k8s.io/client-go/tools/record"
 )
 
-
 type FlowManager struct {
-	Ctx       context.Context
-	K8sclient client.Client
-	Log       logr.Logger
+	Ctx           context.Context
+	K8sclient     client.Client
+	Log           logr.Logger
 	EventRecorder record.EventRecorder
 }
 

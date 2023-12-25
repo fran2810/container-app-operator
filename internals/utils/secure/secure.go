@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	eventTypeWarning = "Warning"
+	eventTypeWarning        = "Warning"
 	eventCappSecretNotFound = "SecretNotFound"
 )
 

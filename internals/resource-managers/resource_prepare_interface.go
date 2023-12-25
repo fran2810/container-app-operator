@@ -10,13 +10,13 @@ type ResourceManager interface {
 }
 
 const (
-	eventTypeNormal       = "Normal"
-	eventTypeWarning      = "Warning"
-	eventTypeError        = "Error"
-	eventCappFlowCreationFailed = "FlowCreationFailed"
-	eventCappFlowCreated = "FlowCreated"
-	eventCappDomainMappingCreationFailed = "DomainMappingCreationFailed"
+	eventTypeNormal                       = "Normal"
+	eventTypeWarning                      = "Warning"
+	eventTypeError                        = "Error"
+	eventCappFlowCreationFailed           = "FlowCreationFailed"
+	eventCappFlowCreated                  = "FlowCreated"
+	eventCappDomainMappingCreationFailed  = "DomainMappingCreationFailed"
 	eventCappKnativeServiceCreationFailed = "KnativeServiceCreationFailed"
-	eventCappOutputCreationFailed = "OutputCreationFailed"
-	eventCappOutputCreated = "OutputCreated"
+	eventCappOutputCreationFailed         = "OutputCreationFailed"
+	eventCappOutputCreated                = "OutputCreated"
 )

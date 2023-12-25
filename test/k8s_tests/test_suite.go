@@ -73,7 +73,7 @@ var _ = SynchronizedBeforeSuite(func() {
 }, func() {})
 
 var _ = SynchronizedAfterSuite(func() {}, func() {
-	cleanUp()
+	//cleanUp()
 })
 
 // cleanUp make sure the test environment is clean
